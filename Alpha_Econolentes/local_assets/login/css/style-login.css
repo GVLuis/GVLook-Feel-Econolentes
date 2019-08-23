@@ -1,0 +1,86 @@
+
+/* ------------------------------------------------------------------------------
+ *
+ *  # Login PAge
+ *
+ * ---------------------------------------------------------------------------- */
+
+.login-container {
+  /* Location of the image */
+  background: url("../../../global_assets/img/cover-login.jpg");
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  /* Background image is fixed in the viewport so that it doesn't move when the content's height is greater than the image's height */
+  background-attachment: fixed;
+  /* This is what makes the background image rescale based on the container's size */
+  background-size: cover;
+  /* Set a background color that will be displayedwhile the background image is loading */
+  background-color: #000000;
+}
+.login-container .page-container {
+  position: static;
+  margin-top:20px;
+}
+.login-container .page-container .login-form {
+  width: 320px;
+}
+.login-container .page-container .login-form {
+  margin: 0 auto 20px auto;
+}
+@media (max-width: 480px) {
+  .login-container .page-container .login-form {
+    width: 100%;
+  }
+}
+.login-container .panel {
+  border: 0px;
+}
+.login-container .form-control {
+  background-color: transparent;
+  color: #0FE6E9;
+  border: 1px solid #0FE6E9;
+}
+.login-container .form-group>input {
+  border-radius: 3px;
+}
+.login-container label,
+.login-container h1 {
+  color: #0FE6E9;
+}
+.login-container h1 {
+  font-weight: 100;
+  letter-spacing: 0.07em;
+  font-size: 25px;
+}
+.login-container .text-muted {
+  color: #0FE6E9;
+}
+.login-container .footer {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  opacity: 0.5;
+  left: 0;
+  right: 0;
+}
+.login-container .img-responsive{
+  display: initial !important;
+  max-width: 70% !important;
+}
+.login-container .btn {
+  background-color: #ffffff;
+  color: #003A70;
+}
+.login-container .btn:hover {
+  background-color: #0FE6E9;
+  color: #003A70;
+}
+.has-feedback-left .form-control-feedback {
+  right: auto;
+  left: 0;
+}
+.has-feedback-left .form-control {
+  padding-right: 12px;
+  padding-left: 36px;
+}
