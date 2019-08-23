@@ -1,0 +1,30 @@
+.welcome-container {
+    /* Location of the image */
+    background: url("../../../global_assets/img/cover-welcome.jpg");
+    /* Background image is centered vertically and horizontally at all times */
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when the content's height is greater than the image's height */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based on the container's size */
+    background-size: cover;
+    /* Set a background color that will be displayedwhile the background image is loading */
+    background-color: #3DAE2B;
+}
+.welcome-container h1 {
+    letter-spacing: 0.12em;
+    font-size: 66px;
+    vertical-align: middle;
+    margin: 35vh 100% 0 0;
+    font-weight: 100;
+    color: #F6E948;
+    font-kerning: 4;
+}
+
+.navbar-nav {
+    display: none;
+}
+.sidebar-mobile-detached-toggle {
+    display: none !important;
+}
